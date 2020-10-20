@@ -208,3 +208,10 @@ import pylab
 pylab.plot(t, y)
 pylab.xlabel('t'); pylab.ylabel('y(t)')
     return x
+import math
+
+base_number = float(input("Enter the base number"))
+exponent = float(input("Enter the exponent"))
+
+power = math.pow(base_number,exponent)
+print("Power is =",power)
